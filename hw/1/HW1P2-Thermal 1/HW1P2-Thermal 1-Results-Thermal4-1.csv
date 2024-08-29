@@ -1,0 +1,11 @@
+Date:  21:22, Wednesday, August 28, 2024
+Model name: HW1P2
+Study name: Thermal 1(-Default-)
+Plot type: Thermal Thermal4
+Time step: 1
+Result Type: HFluxX 
+
+
+Node  ,Value ((Cal/s)/cm^2)  ,X (m)  ,Y (m)  ,Z (m)
+2459  ,5.604e-04  ,0.00000000  ,-0.12578894  ,-0.08360851
+80981  ,5.614e-04  ,0.30000001  ,-0.09352092  ,-0.13911626
