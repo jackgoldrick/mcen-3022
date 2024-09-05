@@ -1,0 +1,102 @@
+
+\documentclass[]{report}
+
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{ragged2e}
+\usepackage{gensymb}
+%\usepackage{blindtext}
+% Title Page
+\title{MCEN 3022 - Homework 2}
+\author{Jakc Reilly Goldrick}
+
+
+\begin{document}
+\maketitle
+
+\section{Problem 1}
+
+
+% TODO: \usepackage{graphicx} required
+\begin{center}
+	\includegraphics[width=0.7\linewidth]{"../1-graph"}
+\end{center}
+
+
+\section{Problem 2}
+
+\subsection{a}
+
+\begin{center}
+	\includegraphics[width=1\linewidth]{"../2-sol"}
+\end{center}
+
+
+\subsection{b}
+
+\begin{center}
+	\begin{itemize}
+		\centering  
+		\item[Boundary Condition 1] $T_0 = 290$ Celsius at x = 0m
+		
+		\item[Boundary Condition 2] $T_f = 60$ Celsius at x = .015m
+	\end{itemize}
+\end{center}
+
+
+
+$$ \frac{\partial^{2} {T}}{\partial{x}^{2}} = 0 $$
+
+$$  \frac{\partial {T}}{\partial{x}} = C  $$
+
+$$ T(x) = Cx + D $$
+
+
+$$ T(x_0) = D = 290{\degree} C $$
+
+$$ T(x_f) = 60 = C * .015 + 290 $$
+
+$$ \frac{-230}{.015} = C $$
+
+$$ T(x) = \frac{-230}{.015} x + 290 $$
+
+
+\subsection{c}
+
+\begin{center}
+	\includegraphics[width=0.7\linewidth]{"../2-graph"}
+\end{center}
+
+\subsection{d}
+
+\begin{Center}
+	-2149 kW
+\end{Center}
+
+\section{Problem 3}
+
+\subsection{a}
+
+\begin{center}
+	\includegraphics[width=0.7\linewidth]{"../3.a-graph"}
+\end{center}
+
+
+\subsection{b}
+
+\begin{center}
+	\includegraphics[width=0.7\linewidth]{"../3.b-graph"}
+\end{center}
+
+
+
+\subsection{c}
+
+
+The water would kill the person significantly quicker than the air.  Neither is a good idea!
+
+
+
+
+
+\end{document}          
